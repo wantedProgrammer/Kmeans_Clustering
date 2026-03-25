@@ -93,7 +93,7 @@ df = pd.DataFrame({
 # -------------------------------------------------
 # 4. KMeans clustering on node positions
 # -------------------------------------------------
-k = 7
+k = 3
 kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
 df["Cluster"] = kmeans.fit_predict(df[["X", "Y"]])
 centroids = kmeans.cluster_centers_
