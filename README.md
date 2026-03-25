@@ -1,4 +1,4 @@
-K-Means Clustering for Dense Network Topology
+# K-Means Clustering for Dense Network Topology
 A practical implementation of unsupervised learning using K-Means clustering to analyze dense network topologies with energy distribution, developed as part of the CMPG 313 Artificial Intelligence module.
 
 # 🚀 Key Features
